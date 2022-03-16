@@ -8,11 +8,7 @@ import lombok.Setter;
 @Component
 @Getter
 @Setter
-public class Key {
+public class Answer {
 
-	Integer size;
-	Integer tries;
-	String generatedKey;
-	Integer lefttries;
-
+	String[] answer;
 }
